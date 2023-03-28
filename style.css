@@ -2,17 +2,23 @@
 
 * {
     margin: 0%;
+    padding: 0%;
 }
+
+body {
+    min-height: 100vh;
+} 
 
 header {
     background-color: black;
     color: white; 
-    padding: 40px;
-
+    padding-top: 40px;
+    font-variant: small-caps;
 }
 
 header > p {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 a {
@@ -37,7 +43,28 @@ section {
     text-align: left;
     font-family: cursive;
     font-size: 2.5em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.5em;
 }
+
+.normal {
+    color: black;
+    background-color: aliceblue;
+}
+
+.imagem {
+    color: white;
+    background-color: rgba(51, 51, 51);
+
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
 footer {
     font-weight: lighter;
     font-family: sans-serif;
